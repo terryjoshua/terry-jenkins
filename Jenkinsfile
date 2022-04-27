@@ -11,7 +11,7 @@ pipeline {
     
       steps {
         echo "building the application..."
-        echo "building version ${NEW_VESION}"
+        echo "building version ${params.VESION}"
       }
       
     }
