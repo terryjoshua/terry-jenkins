@@ -7,14 +7,7 @@ pipeline {
   
   stages {
     stage ("build") {
-      
-      when {
-        expression {
-          CODE_CHANGES == true
-        }
-        
-      }
-      
+    
       steps {
         echo "building the application..."
         echo "building version ${NEW_VESION}"
